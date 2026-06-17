@@ -39,4 +39,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаКлиентов</catalogs>
 </mdclass:Configuration>

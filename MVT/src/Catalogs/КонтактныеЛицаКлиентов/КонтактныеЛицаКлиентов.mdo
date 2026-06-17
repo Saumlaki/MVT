@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cfc3846-3ba2-4376-b0dc-a45e4444724e">
+  <producedTypes>
+    <objectType typeId="985561d3-a6f9-411b-9b88-65600d9aa83b" valueTypeId="6a5c78a6-5167-4ace-8653-bc4e1c3306c7"/>
+    <refType typeId="0c8dc666-f018-49d3-96b5-9b34bb71af95" valueTypeId="a3e4da4a-9327-48a2-b615-ca28b05bd106"/>
+    <selectionType typeId="61ae1ef2-6017-4140-9efe-82d5587f5ee8" valueTypeId="e26c6ebb-be5c-4a93-bd1a-93fa277d86ba"/>
+    <listType typeId="ec85f838-88b5-4b46-abac-d8fc2bc7acfc" valueTypeId="2821ae25-f997-45be-b687-43ec61d91fe0"/>
+    <managerType typeId="0cfa050a-2f8d-460f-acda-a9edd6fd703a" valueTypeId="c35d26a6-033e-49a1-b8fc-564f14faae13"/>
+  </producedTypes>
+  <name>КонтактныеЛицаКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактные лица клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтактныеЛицаКлиентов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтактныеЛицаКлиентов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Клиенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ac951cd3-38b3-4702-83c6-62f1c9b468ef">
+    <name>ЭлектроннаяПочта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98163a63-959a-4181-8663-1b772683ebaa">
+    <name>ТелефонРабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон рабочий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66904aa8-98d8-456c-92ff-7b37257007dc">
+    <name>ТелефонВнутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон внутренний</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
