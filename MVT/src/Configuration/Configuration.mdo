@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94b30c5d-9fc5-42b5-8136-6b295b49ab17">
+  <name>MVT</name>
+  <synonym>
+    <key>ru</key>
+    <value>MVT</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="bd4b18d8-208c-4f52-ae34-43ca7affe62c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ab8d79ce-3709-47b6-b833-c0d34c43c48b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="14d4aeae-3873-4cac-a0aa-0fa55bb2a9d0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2257e5f7-7a20-415f-8c76-2c4f1355c649"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72f81992-af0d-46a6-b529-ec71a71ebd7b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3dc51adf-fe1e-4e52-981d-f6e07bdb2c2e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0ebd742b-b271-48f0-9053-97ed6c2bd1f9"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="8c3eae17-00e0-4675-b9ec-f969d519d507">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Клиенты</catalogs>
+</mdclass:Configuration>
