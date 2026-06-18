@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13f57b5d-9b98-4b96-a927-11eaf666e01d">
+  <producedTypes>
+    <objectType typeId="371c2e82-62a0-46bc-9930-6e0ba9e7bed7" valueTypeId="33e8b3a1-b6ca-4e98-8c37-d66669d30315"/>
+    <refType typeId="a2acf303-3ca9-4b7e-ad73-d7e5e463643e" valueTypeId="db157602-1f45-4898-926f-96a757658084"/>
+    <selectionType typeId="197839b0-e9e1-41a9-8cdb-0fa08ef7f10f" valueTypeId="9bb8cb78-7744-4b55-aad6-3ee0a16fe100"/>
+    <listType typeId="d8fd0870-8f3f-4d49-a90b-2fbc155b2df1" valueTypeId="b08cf28e-6f5a-460a-9680-0f8e1c4ffd7a"/>
+    <managerType typeId="d118c6c5-2d70-4642-8b42-f7af08846068" valueTypeId="b270ba9e-3be6-4682-ade1-20384d17222f"/>
+  </producedTypes>
+  <name>Задача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Задача.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Задача.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9a8dbeb0-e348-49fd-92c4-435f759f9335">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33c8ecda-78ff-44ba-a82d-56531a719947">
+    <name>КонтактныеЛицаКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактные лица клиентов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтактныеЛицаКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dcc40434-0c24-4788-a11e-b0d468502388">
+    <name>ОписаниеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bcaaadf5-c52d-413e-becd-3fa898277843">
+    <name>ОписаниеЗадачиЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание задачи значение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="99da8702-9dc8-42c0-adb8-8b566e07c344">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

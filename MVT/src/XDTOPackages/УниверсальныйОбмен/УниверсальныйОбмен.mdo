@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba389f9c-a887-4618-adfa-1dc888725abd">
+  <name>УниверсальныйОбмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный обмен</value>
+  </synonym>
+  <namespace>http://www.sample-package.org</namespace>
+</mdclass:XDTOPackage>

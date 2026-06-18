@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63d42d91-6d4a-494c-b425-6d797e5e4943" thisNode="c2313f70-8361-4286-ae09-648a6c18e087">
+  <producedTypes>
+    <objectType typeId="1ee133e2-5650-470b-9a9a-165b400e4e54" valueTypeId="58a04212-5db9-4aec-87c0-859c428db299"/>
+    <refType typeId="11ec4386-6755-4ad9-8e0b-de41770c2c27" valueTypeId="2707f8bc-21c8-4b87-9640-ed998382e105"/>
+    <selectionType typeId="fa1674bf-f5c0-4209-bd11-6dcd5925d603" valueTypeId="2a069c25-032e-447b-89fb-806a6b0cdccb"/>
+    <listType typeId="f7259d86-22fb-4e6f-a6f9-98e792a98941" valueTypeId="ee6d3eb7-98f0-4737-bfc1-6069be1e7842"/>
+    <managerType typeId="2ba0fc99-5f66-463d-b532-ba7eaa1b9061" valueTypeId="4350c0b4-026e-4ecf-8c0a-6eb8ec0db21f"/>
+  </producedTypes>
+  <name>Полный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Полный.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.Полный.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

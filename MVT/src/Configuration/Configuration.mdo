@@ -38,6 +38,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <exchangePlans>ExchangePlan.Полный</exchangePlans>
+  <xDTOPackages>XDTOPackage.УниверсальныйОбмен</xDTOPackages>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.КонтактныеЛицаКлиентов</catalogs>
+  <documents>Document.Задача</documents>
 </mdclass:Configuration>
