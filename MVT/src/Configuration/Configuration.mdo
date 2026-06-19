@@ -46,6 +46,7 @@
   <catalogs>Catalog.Справочник1</catalogs>
   <catalogs>Catalog.СправочникВасилия</catalogs>
   <documents>Document.Документ</documents>
-  <documents>Document.Задача</documents>
   <documents>Document.ДокументВасилия</documents>
+  <documents>Document.Задача</documents>
+  <enums>Enum.ПеречислениеВасилия</enums>
 </mdclass:Configuration>
