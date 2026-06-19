@@ -47,4 +47,5 @@
   <catalogs>Catalog.СправочникВасилия</catalogs>
   <documents>Document.Документ</documents>
   <documents>Document.Задача</documents>
+  <documents>Document.ДокументВасилия</documents>
 </mdclass:Configuration>
