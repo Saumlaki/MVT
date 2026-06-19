@@ -45,5 +45,6 @@
   <catalogs>Catalog.КонтактныеЛицаКлиентов</catalogs>
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Справочник1</catalogs>
+  <catalogs>Catalog.СправочникАндрея</catalogs>
   <documents>Document.Задача</documents>
 </mdclass:Configuration>
