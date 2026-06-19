@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="129a7282-18d3-459e-83a2-a31dc4c8baa1">
+  <producedTypes>
+    <managerType typeId="b47a0a19-c9f8-402b-a2a0-aea40e349bed" valueTypeId="bf38a5d1-f359-45b8-a8a5-3ed1806a13c2"/>
+    <valueManagerType typeId="c708dac7-1569-46b9-a15e-e22995b1d53e" valueTypeId="2351594c-6cdb-4525-afd4-d250c7efb608"/>
+    <valueKeyType typeId="2bead260-15fb-45b2-a200-cb6d7c5a671c" valueTypeId="72b58a30-5824-4fea-a9b6-5e73969e8441"/>
+  </producedTypes>
+  <name>БазоваяСтавка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая ставка руб./час</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -40,6 +40,7 @@
   </languages>
   <exchangePlans>ExchangePlan.Полный</exchangePlans>
   <xDTOPackages>XDTOPackage.УниверсальныйОбмен</xDTOPackages>
+  <constants>Constant.БазоваяСтавка</constants>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.КонтактныеЛицаКлиентов</catalogs>
   <documents>Document.Задача</documents>
