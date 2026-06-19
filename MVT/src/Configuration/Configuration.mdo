@@ -43,5 +43,6 @@
   <constants>Constant.БазоваяСтавка</constants>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.КонтактныеЛицаКлиентов</catalogs>
+  <catalogs>Catalog.Справочник1</catalogs>
   <documents>Document.Задача</documents>
 </mdclass:Configuration>
