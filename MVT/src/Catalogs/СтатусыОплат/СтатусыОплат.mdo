@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c94c4556-bf7c-49ba-bc0b-b521be4a7e4d">
+  <producedTypes>
+    <objectType typeId="f5ba97f4-52f5-4327-a428-b6b165fe08e4" valueTypeId="0a6b66f7-d0af-4a46-b4b0-6946bdc3df57"/>
+    <refType typeId="b4a8f225-5cae-49e0-93ea-d7c12f2860b9" valueTypeId="595ee7bc-b3c6-452b-93b0-6f4b738db9ce"/>
+    <selectionType typeId="0f61ee5e-695a-4c0b-bbcc-961aeff54b37" valueTypeId="224a70f2-5ff8-48e3-a9d4-df89f142d027"/>
+    <listType typeId="f90fa503-af84-4cf9-a47f-df116e10ea3b" valueTypeId="7346981e-0148-48ec-b5dd-6550f954722d"/>
+    <managerType typeId="55000a6a-e30b-4f95-ab05-2b938a567218" valueTypeId="d580ba22-f9f2-44c5-a199-0692d8badc65"/>
+  </producedTypes>
+  <name>СтатусыОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оплат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыОплат.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатусыОплат.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6471b79f-9dc8-4740-a5cc-3f5245831add">
+      <name>НеОплачена</name>
+      <description>Не оплачена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a7525159-bb8f-4673-af65-8477bf24112d">
+      <name>Оплачена</name>
+      <description>Оплачена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

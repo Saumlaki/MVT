@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78408901-d629-44b2-bb38-aa3b672c9187">
+  <name>ПрефиксацияОбъектовСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префиксация объектов справочники</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КонтактныеЛицаКлиентов</types>
+    <types>CatalogObject.Клиенты</types>
+    <types>CatalogObject.СтатусыОплат</types>
+    <types>CatalogObject.СтатусыЗадач</types>
+  </source>
+  <event>OnSetNewCode</event>
+  <handler>CommonModule.ОбменДанными.ПрефиксацияОбъектовСправочники</handler>
+</mdclass:EventSubscription>

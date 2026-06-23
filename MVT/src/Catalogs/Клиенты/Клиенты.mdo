@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25da9ef6-ae84-4e18-86f0-588b04cb90e5">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25da9ef6-ae84-4e18-86f0-588b04cb90e5">
   <producedTypes>
     <objectType typeId="c137105a-4807-4b27-924d-7fb5f3a20e28" valueTypeId="3d15681d-0c54-4ce6-827f-3164985c05da"/>
     <refType typeId="5579c6b7-5710-4dc2-8aa1-4c4034609d7b" valueTypeId="0740301e-8004-4f76-9c50-9c172200b0fc"/>
@@ -30,4 +30,23 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="48766f72-1c8e-44ad-866c-5944af44d16a">
+    <name>Преффикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преффикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f65a3f9-c682-4f08-8e36-69c009d0112a">
+  <producedTypes>
+    <objectType typeId="fb92917e-a27b-42ff-a812-4c45b564569b" valueTypeId="1b93cc6c-30a5-46bd-a6cf-900afd9d0640"/>
+    <refType typeId="496210e1-edbd-4419-afda-094f5072bac6" valueTypeId="ec3d8360-a031-4546-a097-e50f91fcd5a4"/>
+    <selectionType typeId="7d787c7a-e009-47d6-9ea5-b45c641a9658" valueTypeId="8b23e81d-788d-4f67-a086-cc9205d8c9d2"/>
+    <listType typeId="8de931ce-30af-4f61-bb87-d47cdd663f0b" valueTypeId="90287fcb-ce11-4189-bfcf-4cb60c02f04a"/>
+    <managerType typeId="78383eb3-6eee-4b49-9c8b-0d61c69ac798" valueTypeId="c6bce89d-7d25-4a93-b850-f39db50db848"/>
+  </producedTypes>
+  <name>СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатусыЗадач.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатусыЗадач.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="405592cb-75f3-4ef9-9d62-b6696d16d85a">
+      <name>Новая</name>
+      <description>Новая</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ad8be824-c06d-49ab-8ba8-00ae60e786a3">
+      <name>КОбновлени</name>
+      <description>К обновлени</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="540460ee-1421-461a-a4be-0c9bec271cc7">
+      <name>Выполнена</name>
+      <description>Выполнена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="921cdb81-1c1b-4ae7-8e45-b6d84b950c91">
+      <name>Отменена</name>
+      <description>Отменена</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
